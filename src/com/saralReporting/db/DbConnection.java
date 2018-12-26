@@ -21,8 +21,7 @@ public class DbConnection {
 			}
 			conn = DriverManager.getConnection("jdbc:postgresql://127.0.0.1:5432/SaralDatabase",
 					"postgres", "gaurav");
-			/*conn = DriverManager.getConnection("jdbc:postgresql://10.88.29.175:5432/",
-					"postgres", "postgres");*/
+		
 			System.out.println("Java JDBC PostgreSQL Example");
 			return conn;
 		} catch (SQLException e) {
